@@ -25,7 +25,7 @@ public class DefaultController : Controller {
 }
 ```
 
-/default/search?p=3 Responds with
+/default/search?p=3
 
 ```
 {"PageNumber":3}
@@ -50,7 +50,7 @@ public class TestViewModel {
 }
 ```
 
-/default/index?pid=123&n=Awesome+Product&u=456 Responds with
+/default/index?pid=123&n=Awesome+Product&u=456
 
 ```
 {"ProductId":123,"Name":"Awesome Product","UserId":456}
