@@ -31,6 +31,8 @@ public class DefaultController : Controller {
 {"PageNumber":3}
 ```
 
+Example of model property aliasing
+
 ```C#
 public class DefaultController : Controller {
 	public JsonResult Index(TestViewModel model) {
